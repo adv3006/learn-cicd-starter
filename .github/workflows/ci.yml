@@ -24,8 +24,11 @@ jobs:
       - name: Run unit tests
         run: go test -cover ./...
 
-        - name: Install gosec
+      - name: Install gosec
         run: go install github.com/securego/gosec/v2/cmd/gosec@latest
+      
+      - name: Check with gosec
+        run: gosec ./...
         
   style:
     name: Style
