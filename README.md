@@ -1,5 +1,5 @@
 # learn-cicd-starter (Notely)
-## Yet another version of the Boot.dev's Notely app.
+## Yet another version  (and also my first project) of the Boot.dev's Notely app.
 
 ![Test status](https://github.com/adv3006/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 
